@@ -1,0 +1,16 @@
+anthropic
+sentence_transformers
+streamlit
+pandas
+langchain
+tabulate
+tiktoken
+openpyxl
+python-dotenv
+streamlit_authenticator
+st-pages
+unstructured
+numpy
+pypdf
+faiss-cpu
+pypdf2

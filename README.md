@@ -1,2 +1,3 @@
-# mcq_claude
-# mcq_claude
+"mcq question generator" 
+
+run streamlit: streamlit run home.py
