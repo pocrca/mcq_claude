@@ -12,12 +12,11 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.docstore.document import Document
 from PyPDF2 import PdfReader
-import tempfile
 from llm_helper_function import split_text_q_gen,split_text_q_answer, \
                                 extract_text_from_pdf_for_q_gen, extract_text_from_pdf_for_q_answer, \
                                 create_questions, create_vectordatabase, convert_to_markdown
 from prompts import GENERATE_WRONG_ANS, GENERATE_RIGHT_ANS
-# import re
+import re
 
 st.title('Question Preperation Aid')
 
